@@ -6,6 +6,9 @@ elif(condicion==False):
 else:
     print("condicion no reconocida")
 
+
+print("condicion verdadera") if condicion else print("condicion falsa")
+
 numero=int(input("proporciona un numero entre 1 y 3: "))
 
 if(numero==1):
@@ -17,3 +20,5 @@ elif(numero==3):
 else:
     numeroTexto="valor fuera de rango"
 print("numero proporcionado: ",numeroTexto)
+
+
