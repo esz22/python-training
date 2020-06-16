@@ -1,14 +1,14 @@
 class Persona:
-    def __init__(this,nombre,edad,*n,**d):
-        this.nombre=nombre
-        this.edad=edad
-        this.tupla=n
-        this.diccionario=d
-    def desplegar(this):
-        print("nombre: ",this.nombre)
-        print("edad: ",this.edad)
-        print("valores (tupla): ",this.tupla)
-        print("diccionario: ",this.diccionario)
+    def __init__(self,nombre,edad,*n,**d):
+        self.nombre=nombre
+        self.edad=edad
+        self.tupla=n
+        self.diccionario=d
+    def desplegar(self):
+        print("nombre: ",self.nombre)
+        print("edad: ",self.edad)
+        print("valores (tupla): ",self.tupla)
+        print("diccionario: ",self.diccionario)
         
 p1=Persona("juan",20)
 p1.desplegar()
